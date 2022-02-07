@@ -1,14 +1,14 @@
 accounts:
   - name: alice
-    coins: ["100000000uatom", "1000000000000000dbs"]
+    coins: ["1000000000000000000000000000dbs"]
   - name: bob
-    coins: ["50000000dbs"]
+    coins: ["500000000000000000dbs"]
 validator:
   name: alice
-  staked: "100000000dbs"
+  staked: "100000000000000dbs"
 faucet:
   name: bob 
-  coins: ["10dbs"]
+  coins: ["1000000000000000dbs"]
 build:
   binary: "evmosd"
 init:
